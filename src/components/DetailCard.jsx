@@ -65,7 +65,7 @@ function DetailCard({ selectedPoke, shiny }) {
           )}
             
           <Card>
-            <CardContent>
+            <CardContent style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
               {data.abilities && (
                  <Stack direction="row" spacing={1}>
                   {data.abilities.map((ability, index) => (
