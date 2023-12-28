@@ -6,6 +6,7 @@ import { FaStar,FaRegStar } from "react-icons/fa";
 //import components
 import Header from "./components/Header";
 import LiveSearch from './components/LiveSearch';
+import DetailCard from './components/DetailCard';
 
 function App() {
   const { data, error, isLoading } = useGetAllPokemonQuery() 
@@ -45,7 +46,7 @@ function App() {
       <div className='max-w-5xl p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 '>
         <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>
           <div>
-             <h2>1</h2>
+             <DetailCard selectedPoke={selectedPoke} shiny={shiny}/>
           </div>
           <div>
             <h2>1</h2>
