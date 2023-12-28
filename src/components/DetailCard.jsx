@@ -28,7 +28,7 @@ function DetailCard({ selectedPoke, shiny }) {
   if (!selectedPoke) {
     return (
       <div>
-        <p>Please Choose Pokemon</p>
+        <p>Please Choose Poke</p>
       </div>
     );
   }
