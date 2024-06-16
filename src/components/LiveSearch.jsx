@@ -11,7 +11,7 @@ function LiveSearch({ selectedPoke, setSelectedPoke }) {
   const handleAutocompleteChange = (event, value) => {
     if (value) {
       console.log('Selected Pokemon:', value.name);
-      setSelectedPoke(value); // Set the selected value using setSelectedPoke
+      setSelectedPoke(value); 
     }
   };
 
