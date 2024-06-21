@@ -6,7 +6,6 @@ This repository contains the sample code for a Pokédex application. The app fet
 - Fetch Pokémon data from the PokéAPI
 - Display Pokémon details such as name, type, and abilities
 - Manage state efficiently using Redux Toolkit
-- Styled with MaterialUI for a modern look
 ## Tools
 - React
 - API
